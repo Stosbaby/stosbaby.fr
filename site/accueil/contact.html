@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="2.ico" type="image/x-icon">
+    <title>Formulaire de Contact Avancé</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://media.discordapp.net/attachments/909911793797840998/1196773254245928960/1.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="Soutiens.html">Soutiens</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://discord.gg/sts-community-797781758841847808"target="_blank">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Sujet :</label>
+            <select id="subject" name="subject">
+                <option value="general">Général</option>
+                <option value="support">Support technique</option>
+                <option value="sales">Ventes</option>
+            </select>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <label for="attachments">Pièces jointes :</label>
+            <input type="file" id="attachments" name="attachments" multiple>
+
+            <label for="location">Localisation :</label>
+            <div id="map"> <!-- Ici, vous pourriez intégrer une carte interactive comme Google Maps. Ceci est juste un exemple. --></div>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; STS</p>
+    </footer>
+</body>
+</html>
