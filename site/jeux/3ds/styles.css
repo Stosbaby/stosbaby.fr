@@ -2,15 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background: url('C:/Users/axelm/Pictures/Screenshots/oe.png') center/cover fixed no-repeat; */
-    /* background-color: #f1f1f1; */
-    /* border: 1px solid #333; */
-    /* box-sizing: border-box; */
+    background-color: rgba(241, 241, 241, 0.6); /* Opacité : 0.6 */
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.6); /* Opacité : 0.6 */   
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +16,7 @@ header {
 
 .logo {
     font-size: 1.5em;
+    margin-right: -200px; /* Ajustez la valeur selon vos besoins pour décaler l'image vers la gauche */ 
 }
 
 nav ul {
@@ -32,49 +30,27 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
     font-weight: bold;
     transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #ff9900;
-}
-
 main {
     padding: 20px;
+    text-align: left; /* Aligner le texte à droite */
 }
-
 section {
     margin-bottom: 30px;
 }
 
 form {
     display: flex;
-    margin-bottom: 20px;
+    flex-direction: column;
 }
-
-input[type="text"] {
-    flex: 1;
-    padding: 10px;
-}
-
-button {
-    background-color: #ff9900;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #e68a00;
-}
-
+    
 footer {
-    background-color: #333;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.6); /* Opacité : 0.6 */
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -83,6 +59,30 @@ footer {
 }
 
 .logo img {
-    width: 50px; /* Ajustez la largeur de l'image selon vos besoins */
-    height: auto; /* Permet au navigateur de conserver les proportions de l'image */
+    width: 50px;
+    height: auto;
+}
+
+body {
+    background: url('https://media.discordapp.net/attachments/909911793797840998/1196773253847465984/2.png') center/cover fixed no-repeat;
+    background-color: rgba(241, 241, 241, 0.6); /* Opacité : 0.6 */
+    background-size: 50%;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff00cc; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: 2px solid #ff00d0; /* Couleur de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #ff00f7; /* Couleur de fond du bouton au survol */
+    border: 2px solid rgb(255, 0, 187); /* Couleur de la bordure au survol */
+    color: #ffffff; /* Couleur du texte au survol */
 }
