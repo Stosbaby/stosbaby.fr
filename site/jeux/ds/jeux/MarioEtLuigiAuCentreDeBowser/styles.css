@@ -66,12 +66,12 @@ footer {
 }
 
 .video-container2 {
-    margin-left: -500px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: -141px;
+    margin-left: -1200px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
+    margin-top: 141px;
 }
-.video-container {
-    margin-left: -500px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: -100px;
+#video-container {
+    margin-left: -1000px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
+    margin-top: -391px;
 }
 .button-link {
     display: inline-block;
