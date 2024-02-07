@@ -2,13 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: rgba(241, 241, 241, 0.6) url('https://media.discordapp.net/attachments/909911793797840998/1196773253847465984/2.png') right/cover fixed no-repeat;
-    background-size: 50%;
+    background-color: rgba(241, 241, 241, 0.6); /* Opacité : 0.6 */
 }
 
 header {
-    background: rgba(0, 0, 0, 0.6);
-    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(51, 51, 51, 0.6); /* Opacité : 0.6 */
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +16,6 @@ header {
 
 .logo {
     font-size: 1.5em;
-    margin-right: -20px; /* Ajustez la valeur selon vos besoins pour décaler l'image vers la gauche */ 
 }
 
 nav ul {
@@ -31,14 +29,17 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
     font-weight: bold;
     transition: color 0.3s;
 }
 
+nav a:hover {
+    color: #ff9900;
+}
+
 main {
     padding: 20px;
-    text-align: right;
 }
 
 section {
@@ -50,19 +51,78 @@ form {
     flex-direction: column;
 }
 
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(204, 204, 204, 0.6); /* Opacité : 0.6 */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgba(255, 153, 0, 0.6); /* Opacité : 0.6 */
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgba(230, 138, 0, 0.6); /* Opacité : 0.6 */
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.6); /* Opacité : 0.6 */
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .logo img {
     width: 50px;
     height: auto;
 }
 
-.video-container2 {
-    margin-left: -800px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: -741px;
+body {
+    background: url('https://media.discordapp.net/attachments/909911793797840998/1196773253847465984/2.png') center/cover fixed no-repeat;
+    background-color: rgba(241, 241, 241, 0.6); /* Opacité : 0.6 */
+    background-size: 50%;
 }
-.video-container {
-    margin-left: -800px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: 100px;
+/* ... Autres styles ... */
+
+form {
+    display: flex;
+    flex-direction: column;
 }
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(204, 204, 204, 0.6); /* Opacité : 0.6 */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3); /* Opacité : 0.3 */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(204, 204, 204, 0.6); /* Opacité : 0.6 */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3); /* Opacité : 0.3 */
+}
+
 .button-link {
     display: inline-block;
     padding: 10px 20px;
@@ -73,23 +133,10 @@ form {
     border: 2px solid #ff00d0; /* Couleur de la bordure */
     border-radius: 5px; /* Coins arrondis */
     transition: background-color 0.3s, color 0.3s;
-    position: relative; /* Add relative positioning */
-    z-index: 2; /* Set a higher z-index value */
 }
 
 .button-link:hover {
     background-color: #ff00f7; /* Couleur de fond du bouton au survol */
     border: 2px solid rgb(255, 0, 187); /* Couleur de la bordure au survol */
     color: #ffffff; /* Couleur du texte au survol */
-}
-
-footer {
-    background: rgba(0, 0, 0, 0.6);
-    color: rgba(255, 255, 255, 0.6);
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1; /* Set a lower z-index value compared to buttons */
 }
