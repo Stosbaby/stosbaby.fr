@@ -1,3 +1,13 @@
+/* Ajoutez une règle pour cacher le header lorsque la classe header-hidden est présente */
+#main-header.header-hidden {
+    display: none;
+}
+
+/* Ajoutez une transition pour un effet de fondu lorsque le header apparaît ou disparaît */
+#main-header {
+    transition: top 0.3s;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;

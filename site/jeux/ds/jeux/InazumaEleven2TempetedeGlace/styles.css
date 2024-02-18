@@ -49,16 +49,6 @@ form {
     display: flex;
     flex-direction: column;
 }
-    
-footer {
-    background: rgba(0, 0, 0, 0.6);
-    color: rgba(255, 255, 255, 0.6);
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 .logo img {
     width: 50px;
@@ -66,14 +56,13 @@ footer {
 }
 
 .video-container2 {
-    margin-left: -500; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: 0;
+    margin-left: -200px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
+    margin-top: 241px;
 }
 .video-container {
-    margin-left: -0; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: 0;
+    margin-left: -800px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
+    margin-top: 100px;
 }
-
 .button-link {
     display: inline-block;
     padding: 10px 20px;
@@ -84,10 +73,23 @@ footer {
     border: 2px solid #ff00d0; /* Couleur de la bordure */
     border-radius: 5px; /* Coins arrondis */
     transition: background-color 0.3s, color 0.3s;
+    position: relative; /* Add relative positioning */
+    z-index: 2; /* Set a higher z-index value */
 }
 
 .button-link:hover {
     background-color: #ff00f7; /* Couleur de fond du bouton au survol */
     border: 2px solid rgb(255, 0, 187); /* Couleur de la bordure au survol */
     color: #ffffff; /* Couleur du texte au survol */
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; /* Set a lower z-index value compared to buttons */
 }

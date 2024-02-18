@@ -14,4 +14,4 @@ function scrollFunction() {
 }
 
 // Définissez l'événement de défilement
-window.onscroll = function() {scrollFunction()};
+window.addEventListener('scroll', scrollFunction);
