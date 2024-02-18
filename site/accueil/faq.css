@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(241, 241, 241, 0.6); /* Opacité : 0.6 */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.6); /* Opacité : 0.6 */
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+h1,
+ul {
+    color: #ff0000; /* Rouge */
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 0, 0, 0.6); /* Opacité : 0.6 */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgba(255, 153, 0, 0.6); /* Opacité : 0.6 */
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgba(230, 138, 0, 0.6); /* Opacité : 0.6 */
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.6); /* Opacité : 0.6 */
+    color: rgba(255, 255, 255, 0.6); /* Opacité : 0.6 */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+body {
+
+    background-color: rgba(241, 241, 241, 0.6); /* Opacité : 0.6 */
+    background-size: 50%;
+}
+/* ... Autres styles ... */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(204, 204, 204, 0.6); /* Opacité : 0.6 */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3); /* Opacité : 0.3 */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(204, 204, 204, 0.6); /* Opacité : 0.6 */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3); /* Opacité : 0.3 */
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff00cc; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: 2px solid #ff00d0; /* Couleur de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #ff00f7; /* Couleur de fond du bouton au survol */
+    border: 2px solid rgb(255, 0, 187); /* Couleur de la bordure au survol */
+    color: #ffffff; /* Couleur du texte au survol */
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-style: italic;
+}
+
+ul li strong {
+    font-weight: bold;
+}
