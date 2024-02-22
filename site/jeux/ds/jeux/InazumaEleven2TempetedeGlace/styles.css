@@ -38,7 +38,7 @@ nav a {
 
 main {
     padding: 20px;
-    text-align: right;
+    text-align: left;
 }
 
 section {
@@ -56,11 +56,11 @@ form {
 }
 
 .video-container2 {
-    margin-left: -200px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: 241px;
+    margin-left: 200px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
+    margin-top: 141px;
 }
 .video-container {
-    margin-left: -800px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
+    margin-left: 200px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
     margin-top: 100px;
 }
 .button-link {
