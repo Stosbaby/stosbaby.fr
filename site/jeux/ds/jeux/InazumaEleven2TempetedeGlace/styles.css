@@ -61,7 +61,7 @@ form {
 }
 .video-container {
     margin-left: 200px; /* Ajustez la valeur en fonction de vos besoins pour déplacer la vidéo vers la gauche */
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .button-link {
     display: inline-block;
