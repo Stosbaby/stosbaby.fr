@@ -90,7 +90,7 @@ footer {
 }
 
 body {
-    background: url('https://media.discordapp.net/attachments/909911793797840998/1196773253847465984/2.png') center/cover fixed no-repeat;
+    background: url('/accueil/2.ico') center/cover fixed no-repeat;
     background-color: rgba(241, 241, 241, 0.6); /* Opacité : 0.6 */
     background-size: 50%;
 }

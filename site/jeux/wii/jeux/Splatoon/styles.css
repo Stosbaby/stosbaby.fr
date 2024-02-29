@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: rgba(241, 241, 241, 0.6) url('https://media.discordapp.net/attachments/909911793797840998/1196773253847465984/2.png') right/cover fixed no-repeat;
+    background: rgba(241, 241, 241, 0.6) url('/accueil/2.ico') right/cover fixed no-repeat;
     background-size: 50%;
 }
 
